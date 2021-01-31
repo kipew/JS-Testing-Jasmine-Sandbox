@@ -1,0 +1,29 @@
+{
+  "name": "jasmine-testing",
+  "version": "1.0.1",
+  "description": "JS testing sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "node jasmine.js",
+    "coverage": "nyc node jasmine.js",
+    "lint": "eslint src/**/*.js spec/**/*.spec.js"
+  },
+  "author": "Andriy Klymovskyi",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "jasmine": "^3.5.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.15.0",
+    "istanbul": "^0.4.5",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-core": "^3.5.0",
+    "nyc": "^15.1.0"
+  }
+}
