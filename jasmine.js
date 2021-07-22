@@ -5,7 +5,7 @@ const jasmine = new Jasmine();
 jasmine.loadConfig({
     spec_dir: 'spec',
     spec_files: ['**/*[sS]pec.js'],
-    helpers: ['helpers/**/*.js', "../node_modules/@babel/register/lib/node.js"],
+    helpers: ['helpers/**/*.js', '../node_modules/@babel/register/lib/node.js'],
     random: false,
     stopSpecOnExpectationFailure: false
 });
